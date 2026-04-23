@@ -35,7 +35,7 @@ try {
 
     // ✅ sender & receiver
     $mail->setFrom('jhnkenrick@gmail.com', 'Gift Form');
-    $mail->addAddress('daptuba6896@gmail.com');
+    $mail->addAddress('jhnkenrick@gmail.com');
 
     // ✅ email content
     $mail->isHTML(true);
